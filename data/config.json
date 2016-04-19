@@ -1,0 +1,68 @@
+{
+    "vars" : { 
+			"groups":[ "grp0" , "grp1"  , "grp2" , "grp3" , "grp4" , "grp5" , "grp6", "Show all" ],
+			"variables":[ "var0" , "var1" , "var2" , "var3" , "var4" , "var5" ],
+			"units":[ "Unit0" , "Unit1" , "Unit2" , "Unit3" , "Unit4" , "Unit5" ],
+			"labels":[ "y-axis" , "Axis limits" , "x-axis" ],
+			"grpColorArray":[ "#3C3" , "#00ACC3" , "#E7007C" , "#024364" , "#EA6908" , "#662584", "#CDBB00", "#9D9D9D" ],
+			"singleColor":"#bd0021",
+			"tools":[ "Equality line", "Regression line" ],
+			"axisLimits":[ "Fixed" , "Data" ]
+	},
+    "essential" : {
+            "graphic_data_url": "data/data.csv",
+        
+            "dateFormat":"%b-%y",
+        
+            "legendLabels" : [ "Legend label 1" ],
+        
+            "sourceText":["My source information text here"],
+            "sourceURL":["http://www.ons.gov.uk/"],
+        
+            "annotationChart": [
+            ],
+            "annotationBullet": [
+            ],
+            "annotationXY":[
+            ],
+            "annotationAlign":[
+            ],
+            "circles" : true,    
+            "annotationCXCY":[
+                [ 0.0 , 100 ],
+                [ 0.0 , 100 ]
+            ],        
+            "xAxisLabel":"xAxisLabel",
+            "yAxisLabel":"yAxisLabel",
+            "AxisScale":"auto_min_max",		
+            "xAxisScaleDivisor":10,
+            "yAxisScaleDivisor":10,
+            "yAxisBreak": false,
+            "yAxisBreak_sm_md_lg": [65,65,65]  ,
+			"dataGroups":[ "dataGroup1" ],
+			"xaxislabelPrecison":1,
+			"yaxislabelPrecison":1
+	},
+    "optional" : {
+            "margin_sm": [10, 15, 15, 30],
+            "margin_md": [10, 10, 15, 30],
+            "margin_lg": [35, 20, 40, 30],
+        
+            "aspectRatio_sm" : [1,1],
+            "aspectRatio_md" : [1,1],
+            "aspectRatio_lg" : [1,1],
+        
+            "mobileBreakpoint" : 610, 
+            
+            "xAxisTextFormat_sm_md_lg" : ["%y", "%Y", "%b %y"], 
+                
+            "x_num_ticks_sm_md_lg" : [7,17,17],    
+            "y_num_ticks_sm_md_lg" : [6,8,10],
+            "centre_line" : false,
+            "centre_line_value" :500,
+			"regressionLine":false,
+			"equalityLine":false      
+    }
+}
+
+
